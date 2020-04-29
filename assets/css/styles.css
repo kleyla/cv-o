@@ -118,3 +118,26 @@ ul {
   width: 60%;
   padding-right: 30px;
 }
+table {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+}
+.fecha {
+  font-size: 12px;
+}
+.curso {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+.link {
+  color: #000;
+  text-decoration: none;
+}
+table tr td {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+table tr td:nth-child(1) {
+  width: 20%;
+}
