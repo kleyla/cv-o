@@ -19,12 +19,14 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 20px;
 }
 .image-profile {
   width: 200px;
   height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .image-profile img {
   width: 100%;
@@ -46,7 +48,7 @@ main {
 }
 .left {
   width: 40%;
-  padding: 30px;
+  padding: 0 30px;
 }
 .contacts {
   width: 90%;
@@ -93,6 +95,7 @@ main {
   font-family: "Poppins", sans-serif;
 }
 .box {
+  width: 100%;
   margin-bottom: 15px;
 }
 .vinetas {
@@ -147,5 +150,37 @@ table tr td:nth-child(1) {
   }
   .name {
     font-size: 1.5em;
+  }
+  table {
+    overflow-x: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .name {
+    font-size: 1.2em;
+  }
+  main {
+    flex-direction: column;
+    /* align-content: center; */
+    /* justify-content: center; */
+  }
+  .contacts {
+    width: 100%;
+    margin: 0;
+  }
+  .left {
+    width: 92%;
+    padding: 0 4%;
+  }
+  .right {
+    width: 92%;
+    padding: 0 4%;
+  }
+  table {
+    width: 100%;
+  }
+
+  table tr td:nth-child(2) {
+    width: 80%;
   }
 }
