@@ -47,7 +47,7 @@ main {
   flex-direction: row;
 }
 .left {
-  width: 40%;
+  width: 35%;
   padding: 0 30px;
 }
 .contacts {
@@ -115,7 +115,7 @@ ul {
   font-family: "Poppins", sans-serif;
 }
 .right {
-  width: 60%;
+  width: 65%;
   padding-right: 30px;
 }
 table {
@@ -156,8 +156,14 @@ table tr td:nth-child(1) {
   }
 }
 @media screen and (max-width: 600px) {
+  header {
+    height: 200px;
+  }
+  .image-profile {
+    width: 150px;
+  }
   .name {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   main {
     flex-direction: column;
