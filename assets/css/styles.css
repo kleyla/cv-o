@@ -129,6 +129,18 @@ table {
 .curso {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
+  display: block;
+}
+.by {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+.inline {
+  display: inline;
+}
+.instructor {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #696969;
 }
 .link {
   color: #000;
