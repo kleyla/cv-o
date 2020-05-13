@@ -93,6 +93,7 @@ main {
 }
 .parrafo {
   font-family: "Poppins", sans-serif;
+  text-align: justify;
 }
 .box {
   width: 100%;
