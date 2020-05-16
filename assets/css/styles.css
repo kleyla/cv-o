@@ -132,6 +132,13 @@ table {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
   display: block;
+  color: #000;
+  text-decoration: none;
+}
+.curso:hover {
+  cursor: pointer;
+  color: rgb(65, 65, 65);
+  text-decoration: underline;
 }
 .by {
   font-family: "Noto Sans JP", sans-serif;
@@ -151,7 +158,7 @@ table {
 }
 table tr td {
   border-bottom: 1px solid #ccc;
-  padding: 10px;
+  padding: 6px;
 }
 table tr td:nth-child(1) {
   width: 20%;
