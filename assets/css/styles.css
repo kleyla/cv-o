@@ -5,12 +5,13 @@
   padding: 0;
 }
 :root {
-  --primary: #d2b4de;
+  --primary: #fbceb1;
 }
 .content {
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  margin: 0 auto;
 }
 header {
   width: 100%;
@@ -39,8 +40,6 @@ header {
 }
 .name .names {
   font-weight: 500;
-}
-.name .last-name {
 }
 main {
   width: 100%;
@@ -146,7 +145,7 @@ table {
 }
 .inline {
   display: inline;
-} 
+}
 .instructor {
   font-family: "Noto Sans JP", sans-serif;
   color: #696969;
@@ -165,7 +164,7 @@ table tr td:nth-child(1) {
 }
 
 /* responsive */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 960px) {
   .content {
     width: 100%;
     margin: 0;
@@ -177,7 +176,7 @@ table tr td:nth-child(1) {
     overflow-x: auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   header {
     height: 200px;
   }
